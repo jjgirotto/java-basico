@@ -1,0 +1,83 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AboutMe2",
+            "request": "launch",
+            "mainClass": "edu.juliana.sintaxe.AboutMe2",
+            "projectName": "sintaxe_92a8ff41"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "edu.juliana.sintaxe.AboutMe",
+            "projectName": "sintaxe_92a8ff41",
+            "args": [
+                "Juliana",
+                "Girotto",
+                "27",
+                "1.58"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "BoletimEstudantil",
+            "request": "launch",
+            "mainClass": "edu.juliana.sintaxe.BoletimEstudantil",
+            "projectName": "sintaxe_92a8ff41"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "edu.juliana.sintaxe.MinhaClasse",
+            "projectName": "sintaxe_92a8ff41"
+        },
+        {
+            "type": "java",
+            "name": "OperadorLogico",
+            "request": "launch",
+            "mainClass": "edu.juliana.sintaxe.OperadorLogico",
+            "projectName": "sintaxe_92a8ff41"
+        },
+        {
+            "type": "java",
+            "name": "OperadorRelacional",
+            "request": "launch",
+            "mainClass": "edu.juliana.sintaxe.OperadorRelacional",
+            "projectName": "sintaxe_92a8ff41"
+        },
+        {
+            "type": "java",
+            "name": "OperadorTernario",
+            "request": "launch",
+            "mainClass": "edu.juliana.sintaxe.OperadorTernario",
+            "projectName": "sintaxe_92a8ff41"
+        },
+        {
+            "type": "java",
+            "name": "OperadoresAdicao",
+            "request": "launch",
+            "mainClass": "edu.juliana.sintaxe.OperadoresAdicao",
+            "projectName": "sintaxe_92a8ff41"
+        },
+        {
+            "type": "java",
+            "name": "UsuarioSmartTv",
+            "request": "launch",
+            "mainClass": "edu.juliana.sintaxe.UsuarioSmartTv",
+            "projectName": "sintaxe_92a8ff41"
+        }
+    ]
+}
