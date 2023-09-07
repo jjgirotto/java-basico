@@ -1,29 +1,31 @@
-public class Tarefa {
-    // atributo
+public class Item {
+    // atributos
     private String nome;
-    private float preco;
     private int quantidade;
+    private double preco;
     
-    public Tarefa(String nome, float preco, int quantidade) {
+    public Item(String nome, double preco, int quantidade) {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
     }
+
     public String getNome() {
         return nome;
     }
-    public float getPreco() {
-        return preco;
-    }
+
     public int getQuantidade() {
         return quantidade;
     }
-/*
- *     @Override
-    public String toString() {
-        return descricao;
+
+    public double getPreco() {
+        return preco;
     }
- */
+    
+    @Override
+    public String toString() {
+        return nome;
+    }
 
-
+    
 }
