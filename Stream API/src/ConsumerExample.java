@@ -13,7 +13,9 @@ public class ConsumerExample {
                 System.out.println(numero);
             }
         };
-        
+        numeros.forEach(imprimirNumeroPar);
+
+        // Usar o Stream para filtrar os números
         numeros.stream()
             .filter(n -> n % 2 == 0)
             .forEach(System.out::println);
