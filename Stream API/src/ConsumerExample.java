@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-public class Consumer {
+public class ConsumerExample {
     public static void main(String[] args) {
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5);
         
@@ -13,7 +13,9 @@ public class Consumer {
                 System.out.println(numero);
             }
         };
-        
+        numeros.forEach(imprimirNumeroPar);
+
+        // Usar o Stream para filtrar os números
         numeros.stream()
             .filter(n -> n % 2 == 0)
             .forEach(System.out::println);
